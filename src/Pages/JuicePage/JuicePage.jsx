@@ -1,3 +1,5 @@
+import "./JuicePage.css";
+
 import Header from "../../componates/Header/Header";
 import JuiceCard from "../../componates/JuiceCard/JuiceCard";
 import Juices from "../../Utils/Juice";

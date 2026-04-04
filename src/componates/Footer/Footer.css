@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  bottom: 0;
+  justify-content: space-between;
+  border: solid 1px black;
+  width: 100%;
+}
+
+.footer__auther {
+  align-self: flex-end;
+}

@@ -1,0 +1,28 @@
+.juicecard {
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.juicecard__title {
+}
+
+.juicecard__name {
+}
+
+.juicecard__imgbox {
+}
+
+.juicecard__img {
+}
+
+.juicecard__info {
+}
+
+.juicecard__flavor {
+}
+
+.juicecard__mg {
+}

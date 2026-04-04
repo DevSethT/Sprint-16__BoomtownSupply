@@ -17,4 +17,4 @@ function JuiceCard({ name, flavor, mg }) {
   );
 }
 
-export default LocationCard;
+export default JuiceCard;

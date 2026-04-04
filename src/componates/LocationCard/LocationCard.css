@@ -1,0 +1,36 @@
+.locationcard {
+  margin: 10px;
+  border: 1px solid black;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.locationcard__imgbox {
+  max-width: 50%;
+}
+
+.locationcard__img {
+  justify-self: center;
+}
+
+.locationcard__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 5px;
+}
+
+.locationcard__title {
+  text-align: center;
+}
+
+.locationcard__name {
+  text-align: center;
+}
+
+.locationcard__number {
+}
+
+.locationcard__btn {
+}

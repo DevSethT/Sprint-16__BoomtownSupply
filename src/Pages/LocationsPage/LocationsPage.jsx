@@ -8,7 +8,7 @@ function LocationsPage() {
     <>
       <h1>Locations</h1>
 
-      {/* embedded map with locations showns as bubbles on the map */}
+      <Map />
 
       <div className="locations__cards">
         {Locations.map((location) => (
@@ -26,3 +26,11 @@ function LocationsPage() {
 }
 
 export default LocationsPage;
+
+{
+  /* embedded map with locations showns as bubbles on the map */
+}
+
+{
+  /* locations maped from the data onto locations cards desplaying below the map */
+}
