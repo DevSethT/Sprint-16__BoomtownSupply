@@ -1,32 +1,28 @@
 .locationcard {
   margin: 10px;
   border: 1px solid black;
+  height: 200px;
   display: flex;
-  border-radius: 5px;
   justify-content: space-between;
 }
 
 .locationcard__imgbox {
-  max-width: 50%;
 }
 
 .locationcard__img {
-  justify-self: center;
 }
 
 .locationcard__info {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin: 5px;
+  justify-content: space-around;
+  margin-right: 10px;
 }
 
 .locationcard__title {
-  text-align: center;
 }
 
 .locationcard__name {
-  text-align: center;
 }
 
 .locationcard__number {

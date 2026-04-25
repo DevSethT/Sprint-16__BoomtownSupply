@@ -5,6 +5,7 @@ const Locations = [
     phone: "4094984021",
     lat: 30.13006,
     lon: -94.0156,
+    image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ const Locations = [
     phone: "2818375360",
     lat: 29.75923,
     lon: -94.97823,
+    image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ const Locations = [
     phone: "4096792035",
     lat: 30.08013,
     lon: -94.16847,
+    image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ const Locations = [
     phone: "409-225-52240",
     lat: 30.124846,
     lon: -94.151255,
+    image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ const Locations = [
     phone: "4092274755",
     lat: 30.26193,
     lon: -94.19868,
+    image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ const Locations = [
     phone: "4093444813",
     lat: 29.9483,
     lon: -93.99536,
+    image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
   },
 ];
 

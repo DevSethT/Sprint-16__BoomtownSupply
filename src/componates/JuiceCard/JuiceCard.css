@@ -4,6 +4,12 @@
   flex-direction: column;
   gap: 10px;
   text-align: center;
+  padding: 10px;
+  width: 300px;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
 }
 
 .juicecard__title {
@@ -13,15 +19,26 @@
 }
 
 .juicecard__imgbox {
+  padding: auto;
+  width: 200px;
+  height: 300px;
 }
 
 .juicecard__img {
+  max-width: 200px;
+  max-height: 300px;
+  border-radius: 5px;
+}
+
+.juicecard__FT {
+  font-weight: bold;
 }
 
 .juicecard__info {
 }
 
 .juicecard__flavor {
+  margin-bottom: 10px;
 }
 
 .juicecard__mg {

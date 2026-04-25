@@ -1,13 +1,13 @@
 import "./LocationCard.css";
 
-function LocationCard({ name, phone, lat, lon }) {
+function LocationCard({ name, phone, lat, lon, image }) {
   return (
     <div className="locationcard">
+      <div className="locationcard__imgbox">
+        <img src={image} alt={name} className="locationcard__img" />
+      </div>
       <div className="locationcard__title">
         <h3 className="locationcard__name">{name}</h3>
-      </div>
-      <div className="locationcard__imgbox">
-        <img src="#" alt="Location image" className="locationcard__img" />
       </div>
       <div className="locationcard__info">
         <a href={`tel:${phone}`} className="locationcard__number">

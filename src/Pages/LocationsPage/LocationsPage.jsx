@@ -10,7 +10,7 @@ function LocationsPage() {
 
       <Map />
 
-      <div className="locations__cards">
+      <ul className="locations__cards">
         {Locations.map((location) => (
           <LocationCard
             key={location.id}
@@ -18,9 +18,10 @@ function LocationsPage() {
             phone={location.phone}
             lat={location.lat}
             lon={location.lon}
+            img={location.image}
           />
         ))}
-      </div>
+      </ul>
     </>
   );
 }
