@@ -24,8 +24,11 @@
 }
 
 .map__title {
+  background: none;
+  margin: 0;
 }
 
 .map__map {
   border-top: solid;
+  height: 500px;
 }

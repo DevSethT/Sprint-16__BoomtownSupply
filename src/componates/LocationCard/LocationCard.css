@@ -1,15 +1,17 @@
 .locationcard {
   margin: 10px;
-  border: 1px solid black;
+  border: 1px solid red;
   height: 200px;
   display: flex;
   justify-content: space-between;
+  min-height: 210px;
 }
 
 .locationcard__imgbox {
 }
 
 .locationcard__img {
+  max-height: 200px;
 }
 
 .locationcard__info {
@@ -29,4 +31,21 @@
 }
 
 .locationcard__btn {
+}
+
+@media screen and (max-width: 768px) {
+  .locationcard {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    max-height: 500px;
+  }
+
+  .locationcard__img {
+    height: 100px;
+  }
+
+  .locationcard__title {
+    align-self: flex-start;
+  }
 }

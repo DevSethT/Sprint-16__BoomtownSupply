@@ -1,4 +1,5 @@
 import "./Header.css";
+import Logo from "../../assets/BSLOGO.PNG";
 
 import NavBar from "../NavBar/NavBar";
 
@@ -8,7 +9,7 @@ function Header() {
   return (
     <header className="header">
       <Link to="/">
-        <img src="#" alt="logo" className="header__logo" />
+        <img src={Logo} alt="logo" className="header__logo" />
       </Link>
       <NavBar />
     </header>

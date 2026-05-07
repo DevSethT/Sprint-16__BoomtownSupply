@@ -10,18 +10,20 @@ function LocationsPage() {
 
       <Map />
 
-      <ul className="locations__cards">
-        {Locations.map((location) => (
-          <LocationCard
-            key={location.id}
-            name={location.name}
-            phone={location.phone}
-            lat={location.lat}
-            lon={location.lon}
-            img={location.image}
-          />
-        ))}
-      </ul>
+      <div className="locations__container">
+        <div className="locations__cards">
+          {Locations.map((location) => (
+            <LocationCard
+              key={location.id}
+              name={location.name}
+              phone={location.phone}
+              lat={location.lat}
+              lon={location.lon}
+              img={location.image}
+            />
+          ))}
+        </div>
+      </div>
     </>
   );
 }

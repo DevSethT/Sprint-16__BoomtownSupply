@@ -1,2 +1,6 @@
-.locations__cards {
-}
+/* @media screen and (max-width: 768px) {
+  .locations__cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+} */
