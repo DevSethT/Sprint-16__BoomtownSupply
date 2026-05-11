@@ -24,3 +24,7 @@ IN the works
 -adding in asking for meta data and displaying closest location bassed on that
 -adding an employee login section and modal to be able to change juice of the week and add, change, or remove locations or juice
 -getting all physical imgs of locationd and juices
+
+to run the code download the files the
+npm install
+run npm run dev(should open right up to the website on ypur local machine)
