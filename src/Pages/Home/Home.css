@@ -7,3 +7,34 @@
 .home__location {
   width: 100%;
 }
+
+.home__about {
+  font-size: 60px;
+  width: 50%;
+  margin: auto;
+}
+
+.home__contact {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.home_contact-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home__email {
+  height: 60px;
+  width: 50%;
+  margin: auto;
+}
+
+.home__apply {
+  height: 60px;
+  width: 50%;
+  margin: auto;
+}

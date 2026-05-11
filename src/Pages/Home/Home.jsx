@@ -3,16 +3,24 @@ import Header from "../../componates/Header/Header";
 import JuiceCard from "../../componates/JuiceCard/JuiceCard";
 import LocationCard from "../../componates/LocationCard/LocationCard";
 import Juices from "../../Utils/Juice";
+import Locations from "../../Utils/Locations";
 
 function Home() {
   const JuiceOfTheWeek = Juices.find((juice) => juice.featured);
+  const featuredLocation = Locations.find((location) => location.featured);
 
   return (
     <div className="home__page">
       <h1>Home</h1>
       {/* closest location should be the first card */}
       <div className="home__location">
-        <LocationCard />
+        <LocationCard
+          name={featuredLocation.name}
+          lat={featuredLocation.lat}
+          lon={featuredLocation.lon}
+          phone={featuredLocation.phone}
+          img={featuredLocation.image}
+        />
       </div>
       {/* Juice of the Week Card */}
       <div className="home__jow">
@@ -26,9 +34,14 @@ function Home() {
 
       {/* small about and or contact and apply button */}
       <div className="home__contact">
-        <p className="home__about">Small about us</p>
-        <button className="home__email">Contact Us</button>
-        <button className="home__applay">Apply Here</button>
+        <p className="home__about">
+          Family Owned and Operated, Established in 2014
+        </p>
+        <p className="home__about">Supporting Texans' Freedom Since Day One</p>
+        <div className="home_contact-btns">
+          <button className="home__email">Contact Us</button>
+          <button className="home__apply">Apply Here</button>
+        </div>
       </div>
     </div>
   );

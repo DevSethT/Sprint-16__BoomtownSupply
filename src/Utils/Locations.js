@@ -6,6 +6,7 @@ const Locations = [
     lat: 30.13006,
     lon: -94.0156,
     image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
+    featured: false,
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const Locations = [
     lat: 29.75923,
     lon: -94.97823,
     image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
+    featured: false,
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const Locations = [
     lat: 30.08013,
     lon: -94.16847,
     image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
+    featured: false,
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const Locations = [
     lat: 30.124846,
     lon: -94.151255,
     image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
+    featured: true,
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ const Locations = [
     lat: 30.26193,
     lon: -94.19868,
     image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
+    featured: false,
   },
   {
     id: 6,
@@ -46,6 +51,7 @@ const Locations = [
     lat: 29.9483,
     lon: -93.99536,
     image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
+    featured: false,
   },
 ];
 

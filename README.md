@@ -1,16 +1,26 @@
-# React + Vite
+Boomtown supply website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Current functionaltiy
 
-Currently, two official plugins are available:
+Home page:
+displays newest location found by being marked as featured for later implamentation of finding the closest location
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+displays a featured juice that is declared juice of the week to be able to switch it later on from when acount are created
 
-## React Compiler
+right now bot are just taken from the map of data
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Locations Page:
+displays a 3rd party map conected with a puplic api key
 
-## Expanding the ESLint configuration
+then maps locations underneath it into cards and displays them nicly
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Juice page:
+
+maps out all juices into juice card in flex box to make it look pretty on screen
+
+IN the works
+
+-makeing the website ui more pretty
+-adding in asking for meta data and displaying closest location bassed on that
+-adding an employee login section and modal to be able to change juice of the week and add, change, or remove locations or juice
+-getting all physical imgs of locationd and juices
