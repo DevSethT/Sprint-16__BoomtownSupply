@@ -1,5 +1,4 @@
 .locationcard {
-  margin: 10px;
   border: 1px solid red;
   height: 200px;
   display: flex;
@@ -37,15 +36,13 @@
   .locationcard {
     display: flex;
     flex-direction: column;
-    max-width: 45%;
-    max-height: 500px;
+    margin: auto;
+    height: 350px;
   }
 
   .locationcard__img {
-    height: 100px;
   }
 
   .locationcard__title {
-    align-self: flex-start;
   }
 }

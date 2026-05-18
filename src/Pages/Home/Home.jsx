@@ -29,6 +29,7 @@ function Home() {
           name={JuiceOfTheWeek.name}
           img={JuiceOfTheWeek.img}
           flavor={JuiceOfTheWeek.flavor}
+          mg={JuiceOfTheWeek.mg}
         />
       </div>
 
