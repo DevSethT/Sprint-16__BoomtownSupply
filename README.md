@@ -28,3 +28,5 @@ IN the works
 to run the code download the files the
 npm install
 run npm run dev(should open right up to the website on ypur local machine)
+
+here is the live demo: DEMO[https://devsetht.github.io/Sprint-16__BoomtownSupply/]
