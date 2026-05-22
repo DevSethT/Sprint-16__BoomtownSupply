@@ -1,6 +1,6 @@
 .locationcard {
   padding: 10px;
-  border: 2px solid rgb(61, 241, 232) ;
+  border: 2px solid rgb(61, 241, 232);
   display: flex;
   justify-content: space-between;
   min-height: 210px;
@@ -12,7 +12,6 @@
 }
 
 .locationcard__imgbox {
-  width: 100%;
 }
 
 .locationcard__img {
@@ -38,17 +37,16 @@
 .locationcard__number {
 }
 
-.locationcard__btn{
+.locationcard__btn {
   background-color: #000000;
   color: #ffffff;
   font-size: 20px;
   border-radius: 5px;
 }
 
-.locationcard__btn:hover{
+.locationcard__btn:hover {
   box-shadow: 0px 4px 4px rgba(218, 20, 129, 0.918);
 }
-
 
 @media screen and (max-width: 768px) {
   .locationcard {

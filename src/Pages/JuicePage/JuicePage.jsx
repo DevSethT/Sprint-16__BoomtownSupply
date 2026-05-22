@@ -17,6 +17,7 @@ function JuicePage() {
             name={juice.name}
             flavor={juice.flavor}
             mg={juice.mg}
+            img={juice.img}
           />
         ))}
       </div>
