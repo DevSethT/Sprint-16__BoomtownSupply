@@ -11,7 +11,7 @@ function Home() {
 
   return (
     <div className="home__page">
-      <h1>Home</h1>
+      <h1>Boomtown Supply</h1>
       {/* closest location should be the first card */}
       <div className="home__location">
         <LocationCard
@@ -43,7 +43,7 @@ function Home() {
           <button className="home__email home__btn">Contact Us</button>
 
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSckyBSAuK7SzmjNDqNjtrDm9KSOqcATtrtW1kdavFrTycB1Ow/viewform?c=0&w=1">
-          <button  className="home__apply home__btn">Apply Here</button>
+            <button className="home__apply home__btn">Apply Here</button>
           </a>
         </div>
       </div>
