@@ -1,3 +1,7 @@
+import bmt from "../assets/Stores/bmt.jpg";
+import Eastex from "../assets/Stores/Eastex.jpg";
+import Vidor from "../assets/Stores/Vidor.jpg";
+
 const Locations = [
   {
     id: 1,
@@ -5,7 +9,7 @@ const Locations = [
     phone: "4094984021",
     lat: 30.13006,
     lon: -94.0156,
-    image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
+    image: Vidor,
     featured: false,
   },
   {
@@ -32,7 +36,7 @@ const Locations = [
     phone: "409-225-52240",
     lat: 30.124846,
     lon: -94.151255,
-    image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
+    image: Eastex,
     featured: true,
   },
   {
