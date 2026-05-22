@@ -11,7 +11,7 @@ function LocationCard({ name, phone, lat, lon, img }) {
       </div>
       <div className="locationcard__info">
         <a href={`tel:${phone}`} className="locationcard__number">
-          Call location
+          <button className="locationcard__call locationcard__btn">Call Location</button>
         </a>
         {/* hours */}
         <a
@@ -19,7 +19,7 @@ function LocationCard({ name, phone, lat, lon, img }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Get Directions
+          <button className="locationcard__directions locationcard__btn">Get Directions</button>
         </a>
         {/* ^ takes you to a google maps link */}
       </div>

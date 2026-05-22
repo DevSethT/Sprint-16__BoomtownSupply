@@ -1,5 +1,5 @@
 .juicecard {
-  border: solid 1px black;
+  border: solid 1px rgb(56, 243, 243);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -10,6 +10,10 @@
   justify-content: center;
   align-items: center;
   border-radius: 8px;
+}
+
+.juicecard:hover {
+  box-shadow: 2px 4px 4px rgba(218, 20, 129, 0.918);
 }
 
 .juicecard__title {

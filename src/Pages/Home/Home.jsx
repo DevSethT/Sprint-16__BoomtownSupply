@@ -39,9 +39,12 @@ function Home() {
           Family Owned and Operated, Established in 2014
         </p>
         <p className="home__about">Supporting Texans' Freedom Since Day One</p>
-        <div className="home_contact-btns">
-          <button className="home__email">Contact Us</button>
-          <button className="home__apply">Apply Here</button>
+        <div className="home__contact-btns">
+          <button className="home__email home__btn">Contact Us</button>
+
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSckyBSAuK7SzmjNDqNjtrDm9KSOqcATtrtW1kdavFrTycB1Ow/viewform?c=0&w=1">
+          <button  className="home__apply home__btn">Apply Here</button>
+          </a>
         </div>
       </div>
     </div>

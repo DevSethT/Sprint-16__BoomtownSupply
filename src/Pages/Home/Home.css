@@ -22,7 +22,13 @@
   gap: 15px;
 }
 
-.home_contact-btns {
+.home__jowTitle {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(248, 73, 196);
+}
+
+.home__contact-btns {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -38,4 +44,15 @@
   height: 60px;
   width: 50%;
   margin: auto;
+}
+
+.home__btn {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.home__btn:hover {
+  box-shadow: 0px 4px 4px rgba(218, 20, 129, 0.918);
 }
