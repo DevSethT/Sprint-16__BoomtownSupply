@@ -1,5 +1,6 @@
 import bmt from "../assets/Stores/bmt.jpg";
 import Eastex from "../assets/Stores/Eastex.jpg";
+import Baytown from "../assets/Stores/Baytown.jpg";
 import Vidor from "../assets/Stores/Vidor.jpg";
 
 const Locations = [
@@ -18,7 +19,7 @@ const Locations = [
     phone: "2818375360",
     lat: 29.75923,
     lon: -94.97823,
-    image: "https://i.ibb.co/JwjrMB93/location-3-VDR.jpg",
+    image: Baytown,
     featured: false,
   },
   {
