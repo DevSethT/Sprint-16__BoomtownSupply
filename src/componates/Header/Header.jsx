@@ -1,5 +1,5 @@
 import "./Header.css";
-import Logo from "../../assets/BSLOGO.PNG";
+import Logo from "../../assets/BSLOGO.png";
 
 import NavBar from "../NavBar/NavBar";
 
