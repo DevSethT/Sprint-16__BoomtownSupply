@@ -1,0 +1,58 @@
+.home__page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__location {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.home__about {
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.home__contact {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.home__jowTitle {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(248, 73, 196);
+}
+
+.home__contact-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home__email {
+  height: 60px;
+  width: 50%;
+  margin: auto;
+}
+
+.home__apply {
+  height: 60px;
+  width: 50%;
+  margin: auto;
+}
+
+.home__btn {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.home__btn:hover {
+  box-shadow: 0px 4px 4px rgba(218, 20, 129, 0.918);
+}

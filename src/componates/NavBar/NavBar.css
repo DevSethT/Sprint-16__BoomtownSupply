@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  gap: 10px;
+  justify-self: end;
+}
+
+
+.navbar__link{
+  font-weight: 600;
+  color: rgb(59, 235, 220)
+}
+
+.navbar__link:hover{
+  color: rgb(218, 20, 129);
+  text-decoration: underline;
+}

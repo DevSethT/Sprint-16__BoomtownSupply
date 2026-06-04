@@ -1,0 +1,30 @@
+import "./LocationCard.css";
+
+function LocationCard({ name, phone, lat, lon, img }) {
+  return (
+    <div className="locationcard">
+      <div className="locationcard__imgbox">
+        <img src={img} alt={name} className="locationcard__img" />
+      </div>
+      <div className="locationcard__title">
+        <h3 className="locationcard__name">{name}</h3>
+      </div>
+      <div className="locationcard__info">
+        <a href={`tel:${phone}`} className="locationcard__number">
+          <button className="locationcard__call locationcard__btn">Call Location</button>
+        </a>
+        {/* hours */}
+        <a
+          href={`https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="locationcard__directions locationcard__btn">Get Directions</button>
+        </a>
+        {/* ^ takes you to a google maps link */}
+      </div>
+    </div>
+  );
+}
+
+export default LocationCard;

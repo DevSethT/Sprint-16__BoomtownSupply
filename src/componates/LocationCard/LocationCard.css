@@ -1,0 +1,65 @@
+.locationcard {
+  padding: 10px;
+  border: 2px solid rgb(61, 241, 232);
+  display: flex;
+  justify-content: space-between;
+  min-height: 210px;
+  border-radius: 10px;
+}
+
+.locationcard:hover {
+  box-shadow: 3px 4px 4px rgba(218, 20, 129, 0.918);
+}
+
+.locationcard__imgbox {
+}
+
+.locationcard__img {
+  max-width: 250px;
+  max-height: 300px;
+  border-radius: 5px;
+}
+
+.locationcard__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 10px;
+  gap: 10px;
+}
+
+.locationcard__title {
+}
+
+.locationcard__name {
+}
+
+.locationcard__number {
+}
+
+.locationcard__btn {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.locationcard__btn:hover {
+  box-shadow: 0px 4px 4px rgba(218, 20, 129, 0.918);
+}
+
+@media screen and (max-width: 768px) {
+  .locationcard {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-height: 250px;
+    gap: 10px;
+  }
+
+  .locationcard__img {
+  }
+
+  .locationcard__title {
+  }
+}
